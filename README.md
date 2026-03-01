@@ -46,7 +46,7 @@ Si deseas correr este proyecto en tu máquina local:
 
 2. Entra al directorio:
 
-cd TU-NOMBRE-DE-REPO
+cd Mi-plantilla-2026
 
 3. Instala las dependencias:
 
