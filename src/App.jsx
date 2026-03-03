@@ -66,6 +66,13 @@ export default function App() {
             ))}
           </div>
         )}
+        {/* Contador de visitas público */}
+        <div className="flex justify-center my-10">
+          <img
+            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fguia-del-stack-mern.vercel.app&count_bg=%2379C83D&title_bg=%23222222&icon=&icon_color=%23E7E7E7&title=Visitas&edge_flat=false"
+            alt="Contador de visitas de la Guía MERN"
+          />
+        </div>
       </div>
       <Footer />
     </>
