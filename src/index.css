@@ -826,6 +826,24 @@ pre {
     padding-right: 16px;
   }
 }
+/* ── CONTADOR DE VISITAS ── */
+.visitor-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 20px 0;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.visitor-counter:hover {
+  opacity: 1;
+}
+
+.visitor-counter img {
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
 /* ── FOOTER ───────────────────────────── */
 .footer {
   max-width: 900px;
